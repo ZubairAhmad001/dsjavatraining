@@ -1,0 +1,1850 @@
+20-Aug-2024 14:45:13.866 SEVERE [http-nio-8080-exec-5] org.apache.catalina.core.StandardWrapperValve.invoke Servlet.service() for servlet [jsp] in context with path [/JSPMongoDB] threw exception [Unable to compile class for JSP: 
+
+An error occurred at line: [7] in the jsp file: [/index.jsp]
+The method getPaarameter(String) is undefined for the type HttpServletRequest
+4: <%--add the jsp code--%>
+5: <%
+6:    //to get the request from html
+7:     String  username = request.getPaarameter("username");
+8:     String blog = request.getParameter("blog");
+9:     //to valiadte the form can't be emplty
+10:     if (username.isEmpty() || blog.isEmpty())
+
+
+Stacktrace:] with root cause
+	org.apache.jasper.JasperException: Unable to compile class for JSP: 
+
+An error occurred at line: [7] in the jsp file: [/index.jsp]
+The method getPaarameter(String) is undefined for the type HttpServletRequest
+4: <%--add the jsp code--%>
+5: <%
+6:    //to get the request from html
+7:     String  username = request.getPaarameter("username");
+8:     String blog = request.getParameter("blog");
+9:     //to valiadte the form can't be emplty
+10:     if (username.isEmpty() || blog.isEmpty())
+
+
+Stacktrace:
+		at org.apache.jasper.compiler.DefaultErrorHandler.javacError(DefaultErrorHandler.java:81)
+		at org.apache.jasper.compiler.ErrorDispatcher.javacError(ErrorDispatcher.java:214)
+		at org.apache.jasper.compiler.JDTCompiler.generateClass(JDTCompiler.java:543)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:402)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:372)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:356)
+		at org.apache.jasper.JspCompilationContext.compile(JspCompilationContext.java:603)
+		at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:396)
+		at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:377)
+		at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:325)
+		at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:195)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:483)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:663)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:344)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:384)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:904)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1741)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1190)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+		at java.base/java.lang.Thread.run(Thread.java:1570)
+20-Aug-2024 14:52:39.652 SEVERE [http-nio-8080-exec-1] org.apache.catalina.core.StandardWrapperValve.invoke Servlet.service() for servlet [jsp] in context with path [/JSPMongoDB] threw exception [Unable to compile class for JSP: 
+
+An error occurred at line: [7] in the jsp file: [/index.jsp]
+The method getPaarameter(String) is undefined for the type HttpServletRequest
+4: <%--add the jsp code--%>
+5: <%
+6:    //to get the request from html
+7:     String  username = request.getPaarameter("username");
+8:     String blog = request.getParameter("blog");
+9:     //to valiadte the form can't be emplty
+10:     if (username.isEmpty() || blog.isEmpty())
+
+
+An error occurred at line: [21] in the jsp file: [/index.jsp]
+Syntax error, insert ";" to complete BlockStatements
+18: <%
+19:  }
+20:     else {
+21:      out.println("ggg")
+22:  }
+23: 
+24: 
+
+
+Stacktrace:] with root cause
+	org.apache.jasper.JasperException: Unable to compile class for JSP: 
+
+An error occurred at line: [7] in the jsp file: [/index.jsp]
+The method getPaarameter(String) is undefined for the type HttpServletRequest
+4: <%--add the jsp code--%>
+5: <%
+6:    //to get the request from html
+7:     String  username = request.getPaarameter("username");
+8:     String blog = request.getParameter("blog");
+9:     //to valiadte the form can't be emplty
+10:     if (username.isEmpty() || blog.isEmpty())
+
+
+An error occurred at line: [21] in the jsp file: [/index.jsp]
+Syntax error, insert ";" to complete BlockStatements
+18: <%
+19:  }
+20:     else {
+21:      out.println("ggg")
+22:  }
+23: 
+24: 
+
+
+Stacktrace:
+		at org.apache.jasper.compiler.DefaultErrorHandler.javacError(DefaultErrorHandler.java:81)
+		at org.apache.jasper.compiler.ErrorDispatcher.javacError(ErrorDispatcher.java:214)
+		at org.apache.jasper.compiler.JDTCompiler.generateClass(JDTCompiler.java:543)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:402)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:372)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:356)
+		at org.apache.jasper.JspCompilationContext.compile(JspCompilationContext.java:603)
+		at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:396)
+		at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:377)
+		at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:325)
+		at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:195)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:483)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:663)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:344)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:384)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:904)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1741)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1190)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+		at java.base/java.lang.Thread.run(Thread.java:1570)
+20-Aug-2024 14:52:50.582 SEVERE [http-nio-8080-exec-4] org.apache.catalina.core.StandardWrapperValve.invoke Servlet.service() for servlet [jsp] in context with path [/JSPMongoDB] threw exception [Unable to compile class for JSP: 
+
+An error occurred at line: [7] in the jsp file: [/index.jsp]
+The method getPaarameter(String) is undefined for the type HttpServletRequest
+4: <%--add the jsp code--%>
+5: <%
+6:    //to get the request from html
+7:     String  username = request.getPaarameter("username");
+8:     String blog = request.getParameter("blog");
+9:     //to valiadte the form can't be emplty
+10:     if (username.isEmpty() || blog.isEmpty())
+
+
+An error occurred at line: [21] in the jsp file: [/index.jsp]
+Syntax error, insert ";" to complete BlockStatements
+18: <%
+19:  }
+20:     else {
+21:      out.println("ggg")
+22:  }
+23: 
+24: 
+
+
+Stacktrace:] with root cause
+	org.apache.jasper.JasperException: Unable to compile class for JSP: 
+
+An error occurred at line: [7] in the jsp file: [/index.jsp]
+The method getPaarameter(String) is undefined for the type HttpServletRequest
+4: <%--add the jsp code--%>
+5: <%
+6:    //to get the request from html
+7:     String  username = request.getPaarameter("username");
+8:     String blog = request.getParameter("blog");
+9:     //to valiadte the form can't be emplty
+10:     if (username.isEmpty() || blog.isEmpty())
+
+
+An error occurred at line: [21] in the jsp file: [/index.jsp]
+Syntax error, insert ";" to complete BlockStatements
+18: <%
+19:  }
+20:     else {
+21:      out.println("ggg")
+22:  }
+23: 
+24: 
+
+
+Stacktrace:
+		at org.apache.jasper.compiler.DefaultErrorHandler.javacError(DefaultErrorHandler.java:81)
+		at org.apache.jasper.compiler.ErrorDispatcher.javacError(ErrorDispatcher.java:214)
+		at org.apache.jasper.compiler.JDTCompiler.generateClass(JDTCompiler.java:543)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:402)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:372)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:356)
+		at org.apache.jasper.JspCompilationContext.compile(JspCompilationContext.java:603)
+		at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:396)
+		at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:377)
+		at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:325)
+		at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:195)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:483)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:663)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:344)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:384)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:904)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1741)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1190)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+		at java.base/java.lang.Thread.run(Thread.java:1570)
+20-Aug-2024 14:53:36.312 SEVERE [http-nio-8080-exec-3] org.apache.catalina.core.StandardWrapperValve.invoke Servlet.service() for servlet [jsp] in context with path [/JSPMongoDB] threw exception [Unable to compile class for JSP: 
+
+An error occurred at line: [7] in the jsp file: [/index.jsp]
+The method getPaarameter(String) is undefined for the type HttpServletRequest
+4: <%--add the jsp code--%>
+5: <%
+6:    //to get the request from html
+7:     String  username = request.getPaarameter("username");
+8:     String blog = request.getParameter("blog");
+9:     //to valiadte the form can't be emplty
+10:     if (username.isEmpty() || blog.isEmpty())
+
+
+Stacktrace:] with root cause
+	org.apache.jasper.JasperException: Unable to compile class for JSP: 
+
+An error occurred at line: [7] in the jsp file: [/index.jsp]
+The method getPaarameter(String) is undefined for the type HttpServletRequest
+4: <%--add the jsp code--%>
+5: <%
+6:    //to get the request from html
+7:     String  username = request.getPaarameter("username");
+8:     String blog = request.getParameter("blog");
+9:     //to valiadte the form can't be emplty
+10:     if (username.isEmpty() || blog.isEmpty())
+
+
+Stacktrace:
+		at org.apache.jasper.compiler.DefaultErrorHandler.javacError(DefaultErrorHandler.java:81)
+		at org.apache.jasper.compiler.ErrorDispatcher.javacError(ErrorDispatcher.java:214)
+		at org.apache.jasper.compiler.JDTCompiler.generateClass(JDTCompiler.java:543)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:402)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:372)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:356)
+		at org.apache.jasper.JspCompilationContext.compile(JspCompilationContext.java:603)
+		at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:396)
+		at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:377)
+		at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:325)
+		at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:195)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:483)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:663)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:344)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:384)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:904)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1741)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1190)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+		at java.base/java.lang.Thread.run(Thread.java:1570)
+20-Aug-2024 14:55:09.500 SEVERE [http-nio-8080-exec-1] org.apache.catalina.core.StandardWrapperValve.invoke Servlet.service() for servlet [jsp] in context with path [/JSPMongoDB] threw exception [Unable to compile class for JSP: 
+
+An error occurred at line: [7] in the jsp file: [/index.jsp]
+The method getPaarameter(String) is undefined for the type HttpServletRequest
+4: <%--add the jsp code--%>
+5: <%
+6:    //to get the request from html
+7:     String  username = request.getPaarameter("username");
+8:     String blog = request.getParameter("blog");
+9:     //to valiadte the form can't be emplty
+10:     if (username.isEmpty() || blog.isEmpty())
+
+
+Stacktrace:] with root cause
+	org.apache.jasper.JasperException: Unable to compile class for JSP: 
+
+An error occurred at line: [7] in the jsp file: [/index.jsp]
+The method getPaarameter(String) is undefined for the type HttpServletRequest
+4: <%--add the jsp code--%>
+5: <%
+6:    //to get the request from html
+7:     String  username = request.getPaarameter("username");
+8:     String blog = request.getParameter("blog");
+9:     //to valiadte the form can't be emplty
+10:     if (username.isEmpty() || blog.isEmpty())
+
+
+Stacktrace:
+		at org.apache.jasper.compiler.DefaultErrorHandler.javacError(DefaultErrorHandler.java:81)
+		at org.apache.jasper.compiler.ErrorDispatcher.javacError(ErrorDispatcher.java:214)
+		at org.apache.jasper.compiler.JDTCompiler.generateClass(JDTCompiler.java:543)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:402)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:372)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:356)
+		at org.apache.jasper.JspCompilationContext.compile(JspCompilationContext.java:603)
+		at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:396)
+		at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:377)
+		at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:325)
+		at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:195)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:483)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:663)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:344)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:384)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:904)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1741)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1190)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+		at java.base/java.lang.Thread.run(Thread.java:1570)
+20-Aug-2024 15:27:06.675 SEVERE [http-nio-8080-exec-5] org.apache.catalina.core.StandardWrapperValve.invoke Servlet.service() for servlet [jsp] in context with path [/JSPMongoDB] threw exception [Unable to compile class for JSP: 
+
+An error occurred at line: [14] in the generated java file: [C:\Users\zubair786\IdeaProjects\firstprogramjava\src\dsjavatraining\JSPMongoDB\work\Catalina\localhost\JSPMongoDB\org\apache\jsp\index_jsp.java]
+Only a type can be imported. com.mongodb.client.MongoClients resolves to a package
+
+An error occurred at line: [15] in the generated java file: [C:\Users\zubair786\IdeaProjects\firstprogramjava\src\dsjavatraining\JSPMongoDB\work\Catalina\localhost\JSPMongoDB\org\apache\jsp\index_jsp.java]
+Only a type can be imported. com.mongodb.client.MongoClient resolves to a package
+
+An error occurred at line: [16] in the generated java file: [C:\Users\zubair786\IdeaProjects\firstprogramjava\src\dsjavatraining\JSPMongoDB\work\Catalina\localhost\JSPMongoDB\org\apache\jsp\index_jsp.java]
+Only a type can be imported. com.mongodb.client.MongoDatabase resolves to a package
+
+An error occurred at line: [17] in the generated java file: [C:\Users\zubair786\IdeaProjects\firstprogramjava\src\dsjavatraining\JSPMongoDB\work\Catalina\localhost\JSPMongoDB\org\apache\jsp\index_jsp.java]
+Only a type can be imported. com.mongodb.client.MongoCollection resolves to a package
+
+An error occurred at line: [18] in the generated java file: [C:\Users\zubair786\IdeaProjects\firstprogramjava\src\dsjavatraining\JSPMongoDB\work\Catalina\localhost\JSPMongoDB\org\apache\jsp\index_jsp.java]
+Only a type can be imported. org.bson.Document resolves to a package
+
+An error occurred at line: [28] in the jsp file: [/index.jsp]
+MongoClient cannot be resolved to a type
+25:         out.print("Username is " + username + " and blog is " + blog);
+26: 
+27:         // Create MongoDB client connection
+28:         try (MongoClient client = MongoClients.create("mongodb://localhost:27017/")) {
+29:             // Access the database
+30:             MongoDatabase blogdb = client.getDatabase("blogdb");
+31: 
+
+
+An error occurred at line: [28] in the jsp file: [/index.jsp]
+MongoClients cannot be resolved
+25:         out.print("Username is " + username + " and blog is " + blog);
+26: 
+27:         // Create MongoDB client connection
+28:         try (MongoClient client = MongoClients.create("mongodb://localhost:27017/")) {
+29:             // Access the database
+30:             MongoDatabase blogdb = client.getDatabase("blogdb");
+31: 
+
+
+An error occurred at line: [30] in the jsp file: [/index.jsp]
+MongoDatabase cannot be resolved to a type
+27:         // Create MongoDB client connection
+28:         try (MongoClient client = MongoClients.create("mongodb://localhost:27017/")) {
+29:             // Access the database
+30:             MongoDatabase blogdb = client.getDatabase("blogdb");
+31: 
+32:             // Get or create the collection
+33:             MongoCollection<Document> collection = blogdb.getCollection("dailyBlogs");
+
+
+An error occurred at line: [33] in the jsp file: [/index.jsp]
+MongoCollection cannot be resolved to a type
+30:             MongoDatabase blogdb = client.getDatabase("blogdb");
+31: 
+32:             // Get or create the collection
+33:             MongoCollection<Document> collection = blogdb.getCollection("dailyBlogs");
+34: 
+35:             // Create a new document
+36:             Document blogDoc = new Document("username", username)
+
+
+An error occurred at line: [33] in the jsp file: [/index.jsp]
+Document cannot be resolved to a type
+30:             MongoDatabase blogdb = client.getDatabase("blogdb");
+31: 
+32:             // Get or create the collection
+33:             MongoCollection<Document> collection = blogdb.getCollection("dailyBlogs");
+34: 
+35:             // Create a new document
+36:             Document blogDoc = new Document("username", username)
+
+
+An error occurred at line: [36] in the jsp file: [/index.jsp]
+Document cannot be resolved to a type
+33:             MongoCollection<Document> collection = blogdb.getCollection("dailyBlogs");
+34: 
+35:             // Create a new document
+36:             Document blogDoc = new Document("username", username)
+37:                     .append("blog", blog);
+38: 
+39:             // Insert the document into the collection
+
+
+An error occurred at line: [36] in the jsp file: [/index.jsp]
+Document cannot be resolved to a type
+33:             MongoCollection<Document> collection = blogdb.getCollection("dailyBlogs");
+34: 
+35:             // Create a new document
+36:             Document blogDoc = new Document("username", username)
+37:                     .append("blog", blog);
+38: 
+39:             // Insert the document into the collection
+
+
+Stacktrace:] with root cause
+	org.apache.jasper.JasperException: Unable to compile class for JSP: 
+
+An error occurred at line: [14] in the generated java file: [C:\Users\zubair786\IdeaProjects\firstprogramjava\src\dsjavatraining\JSPMongoDB\work\Catalina\localhost\JSPMongoDB\org\apache\jsp\index_jsp.java]
+Only a type can be imported. com.mongodb.client.MongoClients resolves to a package
+
+An error occurred at line: [15] in the generated java file: [C:\Users\zubair786\IdeaProjects\firstprogramjava\src\dsjavatraining\JSPMongoDB\work\Catalina\localhost\JSPMongoDB\org\apache\jsp\index_jsp.java]
+Only a type can be imported. com.mongodb.client.MongoClient resolves to a package
+
+An error occurred at line: [16] in the generated java file: [C:\Users\zubair786\IdeaProjects\firstprogramjava\src\dsjavatraining\JSPMongoDB\work\Catalina\localhost\JSPMongoDB\org\apache\jsp\index_jsp.java]
+Only a type can be imported. com.mongodb.client.MongoDatabase resolves to a package
+
+An error occurred at line: [17] in the generated java file: [C:\Users\zubair786\IdeaProjects\firstprogramjava\src\dsjavatraining\JSPMongoDB\work\Catalina\localhost\JSPMongoDB\org\apache\jsp\index_jsp.java]
+Only a type can be imported. com.mongodb.client.MongoCollection resolves to a package
+
+An error occurred at line: [18] in the generated java file: [C:\Users\zubair786\IdeaProjects\firstprogramjava\src\dsjavatraining\JSPMongoDB\work\Catalina\localhost\JSPMongoDB\org\apache\jsp\index_jsp.java]
+Only a type can be imported. org.bson.Document resolves to a package
+
+An error occurred at line: [28] in the jsp file: [/index.jsp]
+MongoClient cannot be resolved to a type
+25:         out.print("Username is " + username + " and blog is " + blog);
+26: 
+27:         // Create MongoDB client connection
+28:         try (MongoClient client = MongoClients.create("mongodb://localhost:27017/")) {
+29:             // Access the database
+30:             MongoDatabase blogdb = client.getDatabase("blogdb");
+31: 
+
+
+An error occurred at line: [28] in the jsp file: [/index.jsp]
+MongoClients cannot be resolved
+25:         out.print("Username is " + username + " and blog is " + blog);
+26: 
+27:         // Create MongoDB client connection
+28:         try (MongoClient client = MongoClients.create("mongodb://localhost:27017/")) {
+29:             // Access the database
+30:             MongoDatabase blogdb = client.getDatabase("blogdb");
+31: 
+
+
+An error occurred at line: [30] in the jsp file: [/index.jsp]
+MongoDatabase cannot be resolved to a type
+27:         // Create MongoDB client connection
+28:         try (MongoClient client = MongoClients.create("mongodb://localhost:27017/")) {
+29:             // Access the database
+30:             MongoDatabase blogdb = client.getDatabase("blogdb");
+31: 
+32:             // Get or create the collection
+33:             MongoCollection<Document> collection = blogdb.getCollection("dailyBlogs");
+
+
+An error occurred at line: [33] in the jsp file: [/index.jsp]
+MongoCollection cannot be resolved to a type
+30:             MongoDatabase blogdb = client.getDatabase("blogdb");
+31: 
+32:             // Get or create the collection
+33:             MongoCollection<Document> collection = blogdb.getCollection("dailyBlogs");
+34: 
+35:             // Create a new document
+36:             Document blogDoc = new Document("username", username)
+
+
+An error occurred at line: [33] in the jsp file: [/index.jsp]
+Document cannot be resolved to a type
+30:             MongoDatabase blogdb = client.getDatabase("blogdb");
+31: 
+32:             // Get or create the collection
+33:             MongoCollection<Document> collection = blogdb.getCollection("dailyBlogs");
+34: 
+35:             // Create a new document
+36:             Document blogDoc = new Document("username", username)
+
+
+An error occurred at line: [36] in the jsp file: [/index.jsp]
+Document cannot be resolved to a type
+33:             MongoCollection<Document> collection = blogdb.getCollection("dailyBlogs");
+34: 
+35:             // Create a new document
+36:             Document blogDoc = new Document("username", username)
+37:                     .append("blog", blog);
+38: 
+39:             // Insert the document into the collection
+
+
+An error occurred at line: [36] in the jsp file: [/index.jsp]
+Document cannot be resolved to a type
+33:             MongoCollection<Document> collection = blogdb.getCollection("dailyBlogs");
+34: 
+35:             // Create a new document
+36:             Document blogDoc = new Document("username", username)
+37:                     .append("blog", blog);
+38: 
+39:             // Insert the document into the collection
+
+
+Stacktrace:
+		at org.apache.jasper.compiler.DefaultErrorHandler.javacError(DefaultErrorHandler.java:81)
+		at org.apache.jasper.compiler.ErrorDispatcher.javacError(ErrorDispatcher.java:214)
+		at org.apache.jasper.compiler.JDTCompiler.generateClass(JDTCompiler.java:543)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:402)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:372)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:356)
+		at org.apache.jasper.JspCompilationContext.compile(JspCompilationContext.java:603)
+		at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:396)
+		at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:377)
+		at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:325)
+		at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:195)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:483)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:663)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:344)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:384)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:904)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1741)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1190)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+		at java.base/java.lang.Thread.run(Thread.java:1570)
+20-Aug-2024 15:27:18.286 SEVERE [http-nio-8080-exec-7] org.apache.catalina.core.StandardWrapperValve.invoke Servlet.service() for servlet [jsp] in context with path [/JSPMongoDB] threw exception [Unable to compile class for JSP: 
+
+An error occurred at line: [14] in the generated java file: [C:\Users\zubair786\IdeaProjects\firstprogramjava\src\dsjavatraining\JSPMongoDB\work\Catalina\localhost\JSPMongoDB\org\apache\jsp\index_jsp.java]
+Only a type can be imported. com.mongodb.client.MongoClients resolves to a package
+
+An error occurred at line: [15] in the generated java file: [C:\Users\zubair786\IdeaProjects\firstprogramjava\src\dsjavatraining\JSPMongoDB\work\Catalina\localhost\JSPMongoDB\org\apache\jsp\index_jsp.java]
+Only a type can be imported. com.mongodb.client.MongoClient resolves to a package
+
+An error occurred at line: [16] in the generated java file: [C:\Users\zubair786\IdeaProjects\firstprogramjava\src\dsjavatraining\JSPMongoDB\work\Catalina\localhost\JSPMongoDB\org\apache\jsp\index_jsp.java]
+Only a type can be imported. com.mongodb.client.MongoDatabase resolves to a package
+
+An error occurred at line: [17] in the generated java file: [C:\Users\zubair786\IdeaProjects\firstprogramjava\src\dsjavatraining\JSPMongoDB\work\Catalina\localhost\JSPMongoDB\org\apache\jsp\index_jsp.java]
+Only a type can be imported. com.mongodb.client.MongoCollection resolves to a package
+
+An error occurred at line: [18] in the generated java file: [C:\Users\zubair786\IdeaProjects\firstprogramjava\src\dsjavatraining\JSPMongoDB\work\Catalina\localhost\JSPMongoDB\org\apache\jsp\index_jsp.java]
+Only a type can be imported. org.bson.Document resolves to a package
+
+An error occurred at line: [28] in the jsp file: [/index.jsp]
+MongoClient cannot be resolved to a type
+25:         out.print("Username is " + username + " and blog is " + blog);
+26: 
+27:         // Create MongoDB client connection
+28:         try (MongoClient client = MongoClients.create("mongodb://localhost:27017/")) {
+29:             // Access the database
+30:             MongoDatabase blogdb = client.getDatabase("blogdb");
+31: 
+
+
+An error occurred at line: [28] in the jsp file: [/index.jsp]
+MongoClients cannot be resolved
+25:         out.print("Username is " + username + " and blog is " + blog);
+26: 
+27:         // Create MongoDB client connection
+28:         try (MongoClient client = MongoClients.create("mongodb://localhost:27017/")) {
+29:             // Access the database
+30:             MongoDatabase blogdb = client.getDatabase("blogdb");
+31: 
+
+
+An error occurred at line: [30] in the jsp file: [/index.jsp]
+MongoDatabase cannot be resolved to a type
+27:         // Create MongoDB client connection
+28:         try (MongoClient client = MongoClients.create("mongodb://localhost:27017/")) {
+29:             // Access the database
+30:             MongoDatabase blogdb = client.getDatabase("blogdb");
+31: 
+32:             // Get or create the collection
+33:             MongoCollection<Document> collection = blogdb.getCollection("dailyBlogs");
+
+
+An error occurred at line: [33] in the jsp file: [/index.jsp]
+MongoCollection cannot be resolved to a type
+30:             MongoDatabase blogdb = client.getDatabase("blogdb");
+31: 
+32:             // Get or create the collection
+33:             MongoCollection<Document> collection = blogdb.getCollection("dailyBlogs");
+34: 
+35:             // Create a new document
+36:             Document blogDoc = new Document("username", username)
+
+
+An error occurred at line: [33] in the jsp file: [/index.jsp]
+Document cannot be resolved to a type
+30:             MongoDatabase blogdb = client.getDatabase("blogdb");
+31: 
+32:             // Get or create the collection
+33:             MongoCollection<Document> collection = blogdb.getCollection("dailyBlogs");
+34: 
+35:             // Create a new document
+36:             Document blogDoc = new Document("username", username)
+
+
+An error occurred at line: [36] in the jsp file: [/index.jsp]
+Document cannot be resolved to a type
+33:             MongoCollection<Document> collection = blogdb.getCollection("dailyBlogs");
+34: 
+35:             // Create a new document
+36:             Document blogDoc = new Document("username", username)
+37:                     .append("blog", blog);
+38: 
+39:             // Insert the document into the collection
+
+
+An error occurred at line: [36] in the jsp file: [/index.jsp]
+Document cannot be resolved to a type
+33:             MongoCollection<Document> collection = blogdb.getCollection("dailyBlogs");
+34: 
+35:             // Create a new document
+36:             Document blogDoc = new Document("username", username)
+37:                     .append("blog", blog);
+38: 
+39:             // Insert the document into the collection
+
+
+Stacktrace:] with root cause
+	org.apache.jasper.JasperException: Unable to compile class for JSP: 
+
+An error occurred at line: [14] in the generated java file: [C:\Users\zubair786\IdeaProjects\firstprogramjava\src\dsjavatraining\JSPMongoDB\work\Catalina\localhost\JSPMongoDB\org\apache\jsp\index_jsp.java]
+Only a type can be imported. com.mongodb.client.MongoClients resolves to a package
+
+An error occurred at line: [15] in the generated java file: [C:\Users\zubair786\IdeaProjects\firstprogramjava\src\dsjavatraining\JSPMongoDB\work\Catalina\localhost\JSPMongoDB\org\apache\jsp\index_jsp.java]
+Only a type can be imported. com.mongodb.client.MongoClient resolves to a package
+
+An error occurred at line: [16] in the generated java file: [C:\Users\zubair786\IdeaProjects\firstprogramjava\src\dsjavatraining\JSPMongoDB\work\Catalina\localhost\JSPMongoDB\org\apache\jsp\index_jsp.java]
+Only a type can be imported. com.mongodb.client.MongoDatabase resolves to a package
+
+An error occurred at line: [17] in the generated java file: [C:\Users\zubair786\IdeaProjects\firstprogramjava\src\dsjavatraining\JSPMongoDB\work\Catalina\localhost\JSPMongoDB\org\apache\jsp\index_jsp.java]
+Only a type can be imported. com.mongodb.client.MongoCollection resolves to a package
+
+An error occurred at line: [18] in the generated java file: [C:\Users\zubair786\IdeaProjects\firstprogramjava\src\dsjavatraining\JSPMongoDB\work\Catalina\localhost\JSPMongoDB\org\apache\jsp\index_jsp.java]
+Only a type can be imported. org.bson.Document resolves to a package
+
+An error occurred at line: [28] in the jsp file: [/index.jsp]
+MongoClient cannot be resolved to a type
+25:         out.print("Username is " + username + " and blog is " + blog);
+26: 
+27:         // Create MongoDB client connection
+28:         try (MongoClient client = MongoClients.create("mongodb://localhost:27017/")) {
+29:             // Access the database
+30:             MongoDatabase blogdb = client.getDatabase("blogdb");
+31: 
+
+
+An error occurred at line: [28] in the jsp file: [/index.jsp]
+MongoClients cannot be resolved
+25:         out.print("Username is " + username + " and blog is " + blog);
+26: 
+27:         // Create MongoDB client connection
+28:         try (MongoClient client = MongoClients.create("mongodb://localhost:27017/")) {
+29:             // Access the database
+30:             MongoDatabase blogdb = client.getDatabase("blogdb");
+31: 
+
+
+An error occurred at line: [30] in the jsp file: [/index.jsp]
+MongoDatabase cannot be resolved to a type
+27:         // Create MongoDB client connection
+28:         try (MongoClient client = MongoClients.create("mongodb://localhost:27017/")) {
+29:             // Access the database
+30:             MongoDatabase blogdb = client.getDatabase("blogdb");
+31: 
+32:             // Get or create the collection
+33:             MongoCollection<Document> collection = blogdb.getCollection("dailyBlogs");
+
+
+An error occurred at line: [33] in the jsp file: [/index.jsp]
+MongoCollection cannot be resolved to a type
+30:             MongoDatabase blogdb = client.getDatabase("blogdb");
+31: 
+32:             // Get or create the collection
+33:             MongoCollection<Document> collection = blogdb.getCollection("dailyBlogs");
+34: 
+35:             // Create a new document
+36:             Document blogDoc = new Document("username", username)
+
+
+An error occurred at line: [33] in the jsp file: [/index.jsp]
+Document cannot be resolved to a type
+30:             MongoDatabase blogdb = client.getDatabase("blogdb");
+31: 
+32:             // Get or create the collection
+33:             MongoCollection<Document> collection = blogdb.getCollection("dailyBlogs");
+34: 
+35:             // Create a new document
+36:             Document blogDoc = new Document("username", username)
+
+
+An error occurred at line: [36] in the jsp file: [/index.jsp]
+Document cannot be resolved to a type
+33:             MongoCollection<Document> collection = blogdb.getCollection("dailyBlogs");
+34: 
+35:             // Create a new document
+36:             Document blogDoc = new Document("username", username)
+37:                     .append("blog", blog);
+38: 
+39:             // Insert the document into the collection
+
+
+An error occurred at line: [36] in the jsp file: [/index.jsp]
+Document cannot be resolved to a type
+33:             MongoCollection<Document> collection = blogdb.getCollection("dailyBlogs");
+34: 
+35:             // Create a new document
+36:             Document blogDoc = new Document("username", username)
+37:                     .append("blog", blog);
+38: 
+39:             // Insert the document into the collection
+
+
+Stacktrace:
+		at org.apache.jasper.compiler.DefaultErrorHandler.javacError(DefaultErrorHandler.java:81)
+		at org.apache.jasper.compiler.ErrorDispatcher.javacError(ErrorDispatcher.java:214)
+		at org.apache.jasper.compiler.JDTCompiler.generateClass(JDTCompiler.java:543)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:402)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:372)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:356)
+		at org.apache.jasper.JspCompilationContext.compile(JspCompilationContext.java:603)
+		at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:396)
+		at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:377)
+		at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:325)
+		at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:195)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:483)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:663)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:344)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:384)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:904)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1741)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1190)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+		at java.base/java.lang.Thread.run(Thread.java:1570)
+20-Aug-2024 15:31:34.219 SEVERE [http-nio-8080-exec-4] org.apache.catalina.core.StandardWrapperValve.invoke Servlet.service() for servlet [jsp] in context with path [/JSPMongoDB] threw exception [Unable to compile class for JSP: 
+
+An error occurred at line: [14] in the generated java file: [C:\Users\zubair786\IdeaProjects\firstprogramjava\src\dsjavatraining\JSPMongoDB\work\Catalina\localhost\JSPMongoDB\org\apache\jsp\index_jsp.java]
+Only a type can be imported. com.mongodb.client.MongoClient resolves to a package
+
+An error occurred at line: [15] in the generated java file: [C:\Users\zubair786\IdeaProjects\firstprogramjava\src\dsjavatraining\JSPMongoDB\work\Catalina\localhost\JSPMongoDB\org\apache\jsp\index_jsp.java]
+Only a type can be imported. com.mongodb.client.MongoClients resolves to a package
+
+An error occurred at line: [16] in the generated java file: [C:\Users\zubair786\IdeaProjects\firstprogramjava\src\dsjavatraining\JSPMongoDB\work\Catalina\localhost\JSPMongoDB\org\apache\jsp\index_jsp.java]
+Only a type can be imported. org.bson.Document resolves to a package
+
+An error occurred at line: [22] in the jsp file: [/index.jsp]
+MongoClients cannot be resolved
+19:     } else {
+20:         out.print("Username is "+username+" blog is " + blog);
+21:         //to create client collection
+22:         var client = MongoClients.create("mongodb://localhost:27017/");
+23:         // to create or access the db
+24:         var blogdb = client.getDatabase("blogdb");
+25:         // create a collection in the database
+
+
+An error occurred at line: [24] in the jsp file: [/index.jsp]
+The method getDatabase(String) is undefined for the type Object
+21:         //to create client collection
+22:         var client = MongoClients.create("mongodb://localhost:27017/");
+23:         // to create or access the db
+24:         var blogdb = client.getDatabase("blogdb");
+25:         // create a collection in the database
+26:         blogdb.createCollection("dailyBlogs");
+27: 
+
+
+An error occurred at line: [26] in the jsp file: [/index.jsp]
+The method createCollection(String) is undefined for the type Object
+23:         // to create or access the db
+24:         var blogdb = client.getDatabase("blogdb");
+25:         // create a collection in the database
+26:         blogdb.createCollection("dailyBlogs");
+27: 
+28:         var collectionName = blogdb.getCollection("dailyBlogs");
+29: 
+
+
+An error occurred at line: [28] in the jsp file: [/index.jsp]
+The method getCollection(String) is undefined for the type Object
+25:         // create a collection in the database
+26:         blogdb.createCollection("dailyBlogs");
+27: 
+28:         var collectionName = blogdb.getCollection("dailyBlogs");
+29: 
+30:         var doc = new Document();
+31:         doc.append(username,blog);
+
+
+An error occurred at line: [30] in the jsp file: [/index.jsp]
+Document cannot be resolved to a type
+27: 
+28:         var collectionName = blogdb.getCollection("dailyBlogs");
+29: 
+30:         var doc = new Document();
+31:         doc.append(username,blog);
+32:         collectionName.insertOne(doc);
+33:     }
+
+
+An error occurred at line: [31] in the jsp file: [/index.jsp]
+The method append(String, String) is undefined for the type Object
+28:         var collectionName = blogdb.getCollection("dailyBlogs");
+29: 
+30:         var doc = new Document();
+31:         doc.append(username,blog);
+32:         collectionName.insertOne(doc);
+33:     }
+34: 
+
+
+An error occurred at line: [32] in the jsp file: [/index.jsp]
+The method insertOne(Object) is undefined for the type Object
+29: 
+30:         var doc = new Document();
+31:         doc.append(username,blog);
+32:         collectionName.insertOne(doc);
+33:     }
+34: 
+35: %>
+
+
+Stacktrace:] with root cause
+	org.apache.jasper.JasperException: Unable to compile class for JSP: 
+
+An error occurred at line: [14] in the generated java file: [C:\Users\zubair786\IdeaProjects\firstprogramjava\src\dsjavatraining\JSPMongoDB\work\Catalina\localhost\JSPMongoDB\org\apache\jsp\index_jsp.java]
+Only a type can be imported. com.mongodb.client.MongoClient resolves to a package
+
+An error occurred at line: [15] in the generated java file: [C:\Users\zubair786\IdeaProjects\firstprogramjava\src\dsjavatraining\JSPMongoDB\work\Catalina\localhost\JSPMongoDB\org\apache\jsp\index_jsp.java]
+Only a type can be imported. com.mongodb.client.MongoClients resolves to a package
+
+An error occurred at line: [16] in the generated java file: [C:\Users\zubair786\IdeaProjects\firstprogramjava\src\dsjavatraining\JSPMongoDB\work\Catalina\localhost\JSPMongoDB\org\apache\jsp\index_jsp.java]
+Only a type can be imported. org.bson.Document resolves to a package
+
+An error occurred at line: [22] in the jsp file: [/index.jsp]
+MongoClients cannot be resolved
+19:     } else {
+20:         out.print("Username is "+username+" blog is " + blog);
+21:         //to create client collection
+22:         var client = MongoClients.create("mongodb://localhost:27017/");
+23:         // to create or access the db
+24:         var blogdb = client.getDatabase("blogdb");
+25:         // create a collection in the database
+
+
+An error occurred at line: [24] in the jsp file: [/index.jsp]
+The method getDatabase(String) is undefined for the type Object
+21:         //to create client collection
+22:         var client = MongoClients.create("mongodb://localhost:27017/");
+23:         // to create or access the db
+24:         var blogdb = client.getDatabase("blogdb");
+25:         // create a collection in the database
+26:         blogdb.createCollection("dailyBlogs");
+27: 
+
+
+An error occurred at line: [26] in the jsp file: [/index.jsp]
+The method createCollection(String) is undefined for the type Object
+23:         // to create or access the db
+24:         var blogdb = client.getDatabase("blogdb");
+25:         // create a collection in the database
+26:         blogdb.createCollection("dailyBlogs");
+27: 
+28:         var collectionName = blogdb.getCollection("dailyBlogs");
+29: 
+
+
+An error occurred at line: [28] in the jsp file: [/index.jsp]
+The method getCollection(String) is undefined for the type Object
+25:         // create a collection in the database
+26:         blogdb.createCollection("dailyBlogs");
+27: 
+28:         var collectionName = blogdb.getCollection("dailyBlogs");
+29: 
+30:         var doc = new Document();
+31:         doc.append(username,blog);
+
+
+An error occurred at line: [30] in the jsp file: [/index.jsp]
+Document cannot be resolved to a type
+27: 
+28:         var collectionName = blogdb.getCollection("dailyBlogs");
+29: 
+30:         var doc = new Document();
+31:         doc.append(username,blog);
+32:         collectionName.insertOne(doc);
+33:     }
+
+
+An error occurred at line: [31] in the jsp file: [/index.jsp]
+The method append(String, String) is undefined for the type Object
+28:         var collectionName = blogdb.getCollection("dailyBlogs");
+29: 
+30:         var doc = new Document();
+31:         doc.append(username,blog);
+32:         collectionName.insertOne(doc);
+33:     }
+34: 
+
+
+An error occurred at line: [32] in the jsp file: [/index.jsp]
+The method insertOne(Object) is undefined for the type Object
+29: 
+30:         var doc = new Document();
+31:         doc.append(username,blog);
+32:         collectionName.insertOne(doc);
+33:     }
+34: 
+35: %>
+
+
+Stacktrace:
+		at org.apache.jasper.compiler.DefaultErrorHandler.javacError(DefaultErrorHandler.java:81)
+		at org.apache.jasper.compiler.ErrorDispatcher.javacError(ErrorDispatcher.java:214)
+		at org.apache.jasper.compiler.JDTCompiler.generateClass(JDTCompiler.java:543)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:402)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:372)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:356)
+		at org.apache.jasper.JspCompilationContext.compile(JspCompilationContext.java:603)
+		at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:396)
+		at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:377)
+		at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:325)
+		at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:195)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:483)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:663)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:344)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:384)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:904)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1741)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1190)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+		at java.base/java.lang.Thread.run(Thread.java:1570)
+20-Aug-2024 15:32:33.070 SEVERE [http-nio-8080-exec-5] org.apache.catalina.core.StandardWrapperValve.invoke Servlet.service() for servlet [jsp] in context with path [/JSPMongoDB] threw exception [Unable to compile class for JSP: 
+
+An error occurred at line: [14] in the generated java file: [C:\Users\zubair786\IdeaProjects\firstprogramjava\src\dsjavatraining\JSPMongoDB\work\Catalina\localhost\JSPMongoDB\org\apache\jsp\index_jsp.java]
+Only a type can be imported. com.mongodb.client.MongoClient resolves to a package
+
+An error occurred at line: [15] in the generated java file: [C:\Users\zubair786\IdeaProjects\firstprogramjava\src\dsjavatraining\JSPMongoDB\work\Catalina\localhost\JSPMongoDB\org\apache\jsp\index_jsp.java]
+Only a type can be imported. com.mongodb.client.MongoClients resolves to a package
+
+An error occurred at line: [16] in the generated java file: [C:\Users\zubair786\IdeaProjects\firstprogramjava\src\dsjavatraining\JSPMongoDB\work\Catalina\localhost\JSPMongoDB\org\apache\jsp\index_jsp.java]
+Only a type can be imported. org.bson.Document resolves to a package
+
+An error occurred at line: [22] in the jsp file: [/index.jsp]
+MongoClients cannot be resolved
+19:     } else {
+20:         out.print("Username is "+username+" blog is " + blog);
+21:         //to create client collection
+22:         var client = MongoClients.create("mongodb://localhost:27017/");
+23:         // to create or access the db
+24:         var blogdb = client.getDatabase("blogdb");
+25:         // create a collection in the database
+
+
+An error occurred at line: [24] in the jsp file: [/index.jsp]
+The method getDatabase(String) is undefined for the type Object
+21:         //to create client collection
+22:         var client = MongoClients.create("mongodb://localhost:27017/");
+23:         // to create or access the db
+24:         var blogdb = client.getDatabase("blogdb");
+25:         // create a collection in the database
+26:         blogdb.createCollection("dailyBlogs");
+27: 
+
+
+An error occurred at line: [26] in the jsp file: [/index.jsp]
+The method createCollection(String) is undefined for the type Object
+23:         // to create or access the db
+24:         var blogdb = client.getDatabase("blogdb");
+25:         // create a collection in the database
+26:         blogdb.createCollection("dailyBlogs");
+27: 
+28:         var collectionName = blogdb.getCollection("dailyBlogs");
+29: 
+
+
+An error occurred at line: [28] in the jsp file: [/index.jsp]
+The method getCollection(String) is undefined for the type Object
+25:         // create a collection in the database
+26:         blogdb.createCollection("dailyBlogs");
+27: 
+28:         var collectionName = blogdb.getCollection("dailyBlogs");
+29: 
+30:         var doc = new Document();
+31:         doc.append(username,blog);
+
+
+An error occurred at line: [30] in the jsp file: [/index.jsp]
+Document cannot be resolved to a type
+27: 
+28:         var collectionName = blogdb.getCollection("dailyBlogs");
+29: 
+30:         var doc = new Document();
+31:         doc.append(username,blog);
+32:         collectionName.insertOne(doc);
+33:     }
+
+
+An error occurred at line: [31] in the jsp file: [/index.jsp]
+The method append(String, String) is undefined for the type Object
+28:         var collectionName = blogdb.getCollection("dailyBlogs");
+29: 
+30:         var doc = new Document();
+31:         doc.append(username,blog);
+32:         collectionName.insertOne(doc);
+33:     }
+34: 
+
+
+An error occurred at line: [32] in the jsp file: [/index.jsp]
+The method insertOne(Object) is undefined for the type Object
+29: 
+30:         var doc = new Document();
+31:         doc.append(username,blog);
+32:         collectionName.insertOne(doc);
+33:     }
+34: 
+35: %>
+
+
+Stacktrace:] with root cause
+	org.apache.jasper.JasperException: Unable to compile class for JSP: 
+
+An error occurred at line: [14] in the generated java file: [C:\Users\zubair786\IdeaProjects\firstprogramjava\src\dsjavatraining\JSPMongoDB\work\Catalina\localhost\JSPMongoDB\org\apache\jsp\index_jsp.java]
+Only a type can be imported. com.mongodb.client.MongoClient resolves to a package
+
+An error occurred at line: [15] in the generated java file: [C:\Users\zubair786\IdeaProjects\firstprogramjava\src\dsjavatraining\JSPMongoDB\work\Catalina\localhost\JSPMongoDB\org\apache\jsp\index_jsp.java]
+Only a type can be imported. com.mongodb.client.MongoClients resolves to a package
+
+An error occurred at line: [16] in the generated java file: [C:\Users\zubair786\IdeaProjects\firstprogramjava\src\dsjavatraining\JSPMongoDB\work\Catalina\localhost\JSPMongoDB\org\apache\jsp\index_jsp.java]
+Only a type can be imported. org.bson.Document resolves to a package
+
+An error occurred at line: [22] in the jsp file: [/index.jsp]
+MongoClients cannot be resolved
+19:     } else {
+20:         out.print("Username is "+username+" blog is " + blog);
+21:         //to create client collection
+22:         var client = MongoClients.create("mongodb://localhost:27017/");
+23:         // to create or access the db
+24:         var blogdb = client.getDatabase("blogdb");
+25:         // create a collection in the database
+
+
+An error occurred at line: [24] in the jsp file: [/index.jsp]
+The method getDatabase(String) is undefined for the type Object
+21:         //to create client collection
+22:         var client = MongoClients.create("mongodb://localhost:27017/");
+23:         // to create or access the db
+24:         var blogdb = client.getDatabase("blogdb");
+25:         // create a collection in the database
+26:         blogdb.createCollection("dailyBlogs");
+27: 
+
+
+An error occurred at line: [26] in the jsp file: [/index.jsp]
+The method createCollection(String) is undefined for the type Object
+23:         // to create or access the db
+24:         var blogdb = client.getDatabase("blogdb");
+25:         // create a collection in the database
+26:         blogdb.createCollection("dailyBlogs");
+27: 
+28:         var collectionName = blogdb.getCollection("dailyBlogs");
+29: 
+
+
+An error occurred at line: [28] in the jsp file: [/index.jsp]
+The method getCollection(String) is undefined for the type Object
+25:         // create a collection in the database
+26:         blogdb.createCollection("dailyBlogs");
+27: 
+28:         var collectionName = blogdb.getCollection("dailyBlogs");
+29: 
+30:         var doc = new Document();
+31:         doc.append(username,blog);
+
+
+An error occurred at line: [30] in the jsp file: [/index.jsp]
+Document cannot be resolved to a type
+27: 
+28:         var collectionName = blogdb.getCollection("dailyBlogs");
+29: 
+30:         var doc = new Document();
+31:         doc.append(username,blog);
+32:         collectionName.insertOne(doc);
+33:     }
+
+
+An error occurred at line: [31] in the jsp file: [/index.jsp]
+The method append(String, String) is undefined for the type Object
+28:         var collectionName = blogdb.getCollection("dailyBlogs");
+29: 
+30:         var doc = new Document();
+31:         doc.append(username,blog);
+32:         collectionName.insertOne(doc);
+33:     }
+34: 
+
+
+An error occurred at line: [32] in the jsp file: [/index.jsp]
+The method insertOne(Object) is undefined for the type Object
+29: 
+30:         var doc = new Document();
+31:         doc.append(username,blog);
+32:         collectionName.insertOne(doc);
+33:     }
+34: 
+35: %>
+
+
+Stacktrace:
+		at org.apache.jasper.compiler.DefaultErrorHandler.javacError(DefaultErrorHandler.java:81)
+		at org.apache.jasper.compiler.ErrorDispatcher.javacError(ErrorDispatcher.java:214)
+		at org.apache.jasper.compiler.JDTCompiler.generateClass(JDTCompiler.java:543)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:402)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:372)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:356)
+		at org.apache.jasper.JspCompilationContext.compile(JspCompilationContext.java:603)
+		at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:396)
+		at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:377)
+		at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:325)
+		at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:195)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:483)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:663)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:344)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:384)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:904)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1741)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1190)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+		at java.base/java.lang.Thread.run(Thread.java:1570)
+20-Aug-2024 15:32:45.692 SEVERE [http-nio-8080-exec-10] org.apache.catalina.core.StandardWrapperValve.invoke Servlet.service() for servlet [jsp] in context with path [/JSPMongoDB] threw exception [Unable to compile class for JSP: 
+
+An error occurred at line: [14] in the generated java file: [C:\Users\zubair786\IdeaProjects\firstprogramjava\src\dsjavatraining\JSPMongoDB\work\Catalina\localhost\JSPMongoDB\org\apache\jsp\index_jsp.java]
+Only a type can be imported. com.mongodb.client.MongoClient resolves to a package
+
+An error occurred at line: [15] in the generated java file: [C:\Users\zubair786\IdeaProjects\firstprogramjava\src\dsjavatraining\JSPMongoDB\work\Catalina\localhost\JSPMongoDB\org\apache\jsp\index_jsp.java]
+Only a type can be imported. com.mongodb.client.MongoClients resolves to a package
+
+An error occurred at line: [16] in the generated java file: [C:\Users\zubair786\IdeaProjects\firstprogramjava\src\dsjavatraining\JSPMongoDB\work\Catalina\localhost\JSPMongoDB\org\apache\jsp\index_jsp.java]
+Only a type can be imported. org.bson.Document resolves to a package
+
+An error occurred at line: [22] in the jsp file: [/index.jsp]
+MongoClients cannot be resolved
+19:     } else {
+20:         out.print("Username is "+username+" blog is " + blog);
+21:         //to create client collection
+22:         var client = MongoClients.create("mongodb://localhost:27017/");
+23:         // to create or access the db
+24:         var blogdb = client.getDatabase("blogdb");
+25:         // create a collection in the database
+
+
+An error occurred at line: [24] in the jsp file: [/index.jsp]
+The method getDatabase(String) is undefined for the type Object
+21:         //to create client collection
+22:         var client = MongoClients.create("mongodb://localhost:27017/");
+23:         // to create or access the db
+24:         var blogdb = client.getDatabase("blogdb");
+25:         // create a collection in the database
+26:         blogdb.createCollection("dailyBlogs");
+27: 
+
+
+An error occurred at line: [26] in the jsp file: [/index.jsp]
+The method createCollection(String) is undefined for the type Object
+23:         // to create or access the db
+24:         var blogdb = client.getDatabase("blogdb");
+25:         // create a collection in the database
+26:         blogdb.createCollection("dailyBlogs");
+27: 
+28:         var collectionName = blogdb.getCollection("dailyBlogs");
+29: 
+
+
+An error occurred at line: [28] in the jsp file: [/index.jsp]
+The method getCollection(String) is undefined for the type Object
+25:         // create a collection in the database
+26:         blogdb.createCollection("dailyBlogs");
+27: 
+28:         var collectionName = blogdb.getCollection("dailyBlogs");
+29: 
+30:         var doc = new Document();
+31:         doc.append(username,blog);
+
+
+An error occurred at line: [30] in the jsp file: [/index.jsp]
+Document cannot be resolved to a type
+27: 
+28:         var collectionName = blogdb.getCollection("dailyBlogs");
+29: 
+30:         var doc = new Document();
+31:         doc.append(username,blog);
+32:         collectionName.insertOne(doc);
+33:     }
+
+
+An error occurred at line: [31] in the jsp file: [/index.jsp]
+The method append(String, String) is undefined for the type Object
+28:         var collectionName = blogdb.getCollection("dailyBlogs");
+29: 
+30:         var doc = new Document();
+31:         doc.append(username,blog);
+32:         collectionName.insertOne(doc);
+33:     }
+34: 
+
+
+An error occurred at line: [32] in the jsp file: [/index.jsp]
+The method insertOne(Object) is undefined for the type Object
+29: 
+30:         var doc = new Document();
+31:         doc.append(username,blog);
+32:         collectionName.insertOne(doc);
+33:     }
+34: 
+35: %>
+
+
+Stacktrace:] with root cause
+	org.apache.jasper.JasperException: Unable to compile class for JSP: 
+
+An error occurred at line: [14] in the generated java file: [C:\Users\zubair786\IdeaProjects\firstprogramjava\src\dsjavatraining\JSPMongoDB\work\Catalina\localhost\JSPMongoDB\org\apache\jsp\index_jsp.java]
+Only a type can be imported. com.mongodb.client.MongoClient resolves to a package
+
+An error occurred at line: [15] in the generated java file: [C:\Users\zubair786\IdeaProjects\firstprogramjava\src\dsjavatraining\JSPMongoDB\work\Catalina\localhost\JSPMongoDB\org\apache\jsp\index_jsp.java]
+Only a type can be imported. com.mongodb.client.MongoClients resolves to a package
+
+An error occurred at line: [16] in the generated java file: [C:\Users\zubair786\IdeaProjects\firstprogramjava\src\dsjavatraining\JSPMongoDB\work\Catalina\localhost\JSPMongoDB\org\apache\jsp\index_jsp.java]
+Only a type can be imported. org.bson.Document resolves to a package
+
+An error occurred at line: [22] in the jsp file: [/index.jsp]
+MongoClients cannot be resolved
+19:     } else {
+20:         out.print("Username is "+username+" blog is " + blog);
+21:         //to create client collection
+22:         var client = MongoClients.create("mongodb://localhost:27017/");
+23:         // to create or access the db
+24:         var blogdb = client.getDatabase("blogdb");
+25:         // create a collection in the database
+
+
+An error occurred at line: [24] in the jsp file: [/index.jsp]
+The method getDatabase(String) is undefined for the type Object
+21:         //to create client collection
+22:         var client = MongoClients.create("mongodb://localhost:27017/");
+23:         // to create or access the db
+24:         var blogdb = client.getDatabase("blogdb");
+25:         // create a collection in the database
+26:         blogdb.createCollection("dailyBlogs");
+27: 
+
+
+An error occurred at line: [26] in the jsp file: [/index.jsp]
+The method createCollection(String) is undefined for the type Object
+23:         // to create or access the db
+24:         var blogdb = client.getDatabase("blogdb");
+25:         // create a collection in the database
+26:         blogdb.createCollection("dailyBlogs");
+27: 
+28:         var collectionName = blogdb.getCollection("dailyBlogs");
+29: 
+
+
+An error occurred at line: [28] in the jsp file: [/index.jsp]
+The method getCollection(String) is undefined for the type Object
+25:         // create a collection in the database
+26:         blogdb.createCollection("dailyBlogs");
+27: 
+28:         var collectionName = blogdb.getCollection("dailyBlogs");
+29: 
+30:         var doc = new Document();
+31:         doc.append(username,blog);
+
+
+An error occurred at line: [30] in the jsp file: [/index.jsp]
+Document cannot be resolved to a type
+27: 
+28:         var collectionName = blogdb.getCollection("dailyBlogs");
+29: 
+30:         var doc = new Document();
+31:         doc.append(username,blog);
+32:         collectionName.insertOne(doc);
+33:     }
+
+
+An error occurred at line: [31] in the jsp file: [/index.jsp]
+The method append(String, String) is undefined for the type Object
+28:         var collectionName = blogdb.getCollection("dailyBlogs");
+29: 
+30:         var doc = new Document();
+31:         doc.append(username,blog);
+32:         collectionName.insertOne(doc);
+33:     }
+34: 
+
+
+An error occurred at line: [32] in the jsp file: [/index.jsp]
+The method insertOne(Object) is undefined for the type Object
+29: 
+30:         var doc = new Document();
+31:         doc.append(username,blog);
+32:         collectionName.insertOne(doc);
+33:     }
+34: 
+35: %>
+
+
+Stacktrace:
+		at org.apache.jasper.compiler.DefaultErrorHandler.javacError(DefaultErrorHandler.java:81)
+		at org.apache.jasper.compiler.ErrorDispatcher.javacError(ErrorDispatcher.java:214)
+		at org.apache.jasper.compiler.JDTCompiler.generateClass(JDTCompiler.java:543)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:402)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:372)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:356)
+		at org.apache.jasper.JspCompilationContext.compile(JspCompilationContext.java:603)
+		at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:396)
+		at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:377)
+		at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:325)
+		at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:195)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:483)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:663)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:344)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:384)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:904)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1741)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1190)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+		at java.base/java.lang.Thread.run(Thread.java:1570)
+20-Aug-2024 15:34:16.366 SEVERE [http-nio-8080-exec-6] org.apache.catalina.core.StandardWrapperValve.invoke Servlet.service() for servlet [jsp] in context with path [/JSPMongoDB] threw exception [Unable to compile class for JSP: 
+
+An error occurred at line: [14] in the generated java file: [C:\Users\zubair786\IdeaProjects\firstprogramjava\src\dsjavatraining\JSPMongoDB\work\Catalina\localhost\JSPMongoDB\org\apache\jsp\index_jsp.java]
+Only a type can be imported. com.mongodb.client.MongoClient resolves to a package
+
+An error occurred at line: [15] in the generated java file: [C:\Users\zubair786\IdeaProjects\firstprogramjava\src\dsjavatraining\JSPMongoDB\work\Catalina\localhost\JSPMongoDB\org\apache\jsp\index_jsp.java]
+Only a type can be imported. com.mongodb.client.MongoClients resolves to a package
+
+An error occurred at line: [16] in the generated java file: [C:\Users\zubair786\IdeaProjects\firstprogramjava\src\dsjavatraining\JSPMongoDB\work\Catalina\localhost\JSPMongoDB\org\apache\jsp\index_jsp.java]
+Only a type can be imported. org.bson.Document resolves to a package
+
+An error occurred at line: [22] in the jsp file: [/index.jsp]
+MongoClients cannot be resolved
+19:     } else {
+20:         out.print("Username is "+username+" blog is " + blog);
+21:         //to create client collection
+22:         var client = MongoClients.create("mongodb://localhost:27017/");
+23:         // to create or access the db
+24:         var blogdb = client.getDatabase("blogdb");
+25:         // create a collection in the database
+
+
+An error occurred at line: [24] in the jsp file: [/index.jsp]
+The method getDatabase(String) is undefined for the type Object
+21:         //to create client collection
+22:         var client = MongoClients.create("mongodb://localhost:27017/");
+23:         // to create or access the db
+24:         var blogdb = client.getDatabase("blogdb");
+25:         // create a collection in the database
+26:         blogdb.createCollection("dailyBlogs");
+27: 
+
+
+An error occurred at line: [26] in the jsp file: [/index.jsp]
+The method createCollection(String) is undefined for the type Object
+23:         // to create or access the db
+24:         var blogdb = client.getDatabase("blogdb");
+25:         // create a collection in the database
+26:         blogdb.createCollection("dailyBlogs");
+27: 
+28:         var collectionName = blogdb.getCollection("dailyBlogs");
+29: 
+
+
+An error occurred at line: [28] in the jsp file: [/index.jsp]
+The method getCollection(String) is undefined for the type Object
+25:         // create a collection in the database
+26:         blogdb.createCollection("dailyBlogs");
+27: 
+28:         var collectionName = blogdb.getCollection("dailyBlogs");
+29: 
+30:         var doc = new Document();
+31:         doc.append(username,blog);
+
+
+An error occurred at line: [30] in the jsp file: [/index.jsp]
+Document cannot be resolved to a type
+27: 
+28:         var collectionName = blogdb.getCollection("dailyBlogs");
+29: 
+30:         var doc = new Document();
+31:         doc.append(username,blog);
+32:         collectionName.insertOne(doc);
+33:     }
+
+
+An error occurred at line: [31] in the jsp file: [/index.jsp]
+The method append(String, String) is undefined for the type Object
+28:         var collectionName = blogdb.getCollection("dailyBlogs");
+29: 
+30:         var doc = new Document();
+31:         doc.append(username,blog);
+32:         collectionName.insertOne(doc);
+33:     }
+34: 
+
+
+An error occurred at line: [32] in the jsp file: [/index.jsp]
+The method insertOne(Object) is undefined for the type Object
+29: 
+30:         var doc = new Document();
+31:         doc.append(username,blog);
+32:         collectionName.insertOne(doc);
+33:     }
+34: 
+35: %>
+
+
+Stacktrace:] with root cause
+	org.apache.jasper.JasperException: Unable to compile class for JSP: 
+
+An error occurred at line: [14] in the generated java file: [C:\Users\zubair786\IdeaProjects\firstprogramjava\src\dsjavatraining\JSPMongoDB\work\Catalina\localhost\JSPMongoDB\org\apache\jsp\index_jsp.java]
+Only a type can be imported. com.mongodb.client.MongoClient resolves to a package
+
+An error occurred at line: [15] in the generated java file: [C:\Users\zubair786\IdeaProjects\firstprogramjava\src\dsjavatraining\JSPMongoDB\work\Catalina\localhost\JSPMongoDB\org\apache\jsp\index_jsp.java]
+Only a type can be imported. com.mongodb.client.MongoClients resolves to a package
+
+An error occurred at line: [16] in the generated java file: [C:\Users\zubair786\IdeaProjects\firstprogramjava\src\dsjavatraining\JSPMongoDB\work\Catalina\localhost\JSPMongoDB\org\apache\jsp\index_jsp.java]
+Only a type can be imported. org.bson.Document resolves to a package
+
+An error occurred at line: [22] in the jsp file: [/index.jsp]
+MongoClients cannot be resolved
+19:     } else {
+20:         out.print("Username is "+username+" blog is " + blog);
+21:         //to create client collection
+22:         var client = MongoClients.create("mongodb://localhost:27017/");
+23:         // to create or access the db
+24:         var blogdb = client.getDatabase("blogdb");
+25:         // create a collection in the database
+
+
+An error occurred at line: [24] in the jsp file: [/index.jsp]
+The method getDatabase(String) is undefined for the type Object
+21:         //to create client collection
+22:         var client = MongoClients.create("mongodb://localhost:27017/");
+23:         // to create or access the db
+24:         var blogdb = client.getDatabase("blogdb");
+25:         // create a collection in the database
+26:         blogdb.createCollection("dailyBlogs");
+27: 
+
+
+An error occurred at line: [26] in the jsp file: [/index.jsp]
+The method createCollection(String) is undefined for the type Object
+23:         // to create or access the db
+24:         var blogdb = client.getDatabase("blogdb");
+25:         // create a collection in the database
+26:         blogdb.createCollection("dailyBlogs");
+27: 
+28:         var collectionName = blogdb.getCollection("dailyBlogs");
+29: 
+
+
+An error occurred at line: [28] in the jsp file: [/index.jsp]
+The method getCollection(String) is undefined for the type Object
+25:         // create a collection in the database
+26:         blogdb.createCollection("dailyBlogs");
+27: 
+28:         var collectionName = blogdb.getCollection("dailyBlogs");
+29: 
+30:         var doc = new Document();
+31:         doc.append(username,blog);
+
+
+An error occurred at line: [30] in the jsp file: [/index.jsp]
+Document cannot be resolved to a type
+27: 
+28:         var collectionName = blogdb.getCollection("dailyBlogs");
+29: 
+30:         var doc = new Document();
+31:         doc.append(username,blog);
+32:         collectionName.insertOne(doc);
+33:     }
+
+
+An error occurred at line: [31] in the jsp file: [/index.jsp]
+The method append(String, String) is undefined for the type Object
+28:         var collectionName = blogdb.getCollection("dailyBlogs");
+29: 
+30:         var doc = new Document();
+31:         doc.append(username,blog);
+32:         collectionName.insertOne(doc);
+33:     }
+34: 
+
+
+An error occurred at line: [32] in the jsp file: [/index.jsp]
+The method insertOne(Object) is undefined for the type Object
+29: 
+30:         var doc = new Document();
+31:         doc.append(username,blog);
+32:         collectionName.insertOne(doc);
+33:     }
+34: 
+35: %>
+
+
+Stacktrace:
+		at org.apache.jasper.compiler.DefaultErrorHandler.javacError(DefaultErrorHandler.java:81)
+		at org.apache.jasper.compiler.ErrorDispatcher.javacError(ErrorDispatcher.java:214)
+		at org.apache.jasper.compiler.JDTCompiler.generateClass(JDTCompiler.java:543)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:402)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:372)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:356)
+		at org.apache.jasper.JspCompilationContext.compile(JspCompilationContext.java:603)
+		at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:396)
+		at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:377)
+		at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:325)
+		at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:195)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:483)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:663)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:344)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:384)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:904)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1741)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1190)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+		at java.base/java.lang.Thread.run(Thread.java:1570)
+20-Aug-2024 15:35:03.531 SEVERE [http-nio-8080-exec-2] org.apache.catalina.core.StandardWrapperValve.invoke Servlet.service() for servlet [jsp] in context with path [/JSPMongoDB] threw exception [Unable to compile class for JSP: 
+
+An error occurred at line: [14] in the generated java file: [C:\Users\zubair786\IdeaProjects\firstprogramjava\src\dsjavatraining\JSPMongoDB\work\Catalina\localhost\JSPMongoDB\org\apache\jsp\index_jsp.java]
+Only a type can be imported. com.mongodb.client.MongoClient resolves to a package
+
+An error occurred at line: [15] in the generated java file: [C:\Users\zubair786\IdeaProjects\firstprogramjava\src\dsjavatraining\JSPMongoDB\work\Catalina\localhost\JSPMongoDB\org\apache\jsp\index_jsp.java]
+Only a type can be imported. com.mongodb.client.MongoClients resolves to a package
+
+An error occurred at line: [16] in the generated java file: [C:\Users\zubair786\IdeaProjects\firstprogramjava\src\dsjavatraining\JSPMongoDB\work\Catalina\localhost\JSPMongoDB\org\apache\jsp\index_jsp.java]
+Only a type can be imported. org.bson.Document resolves to a package
+
+An error occurred at line: [22] in the jsp file: [/index.jsp]
+MongoClients cannot be resolved
+19:     } else {
+20:         out.print("Username is "+username+" blog is " + blog);
+21:         //to create client collection
+22:         var client = MongoClients.create("mongodb://localhost:27017/");
+23:         // to create or access the db
+24:         var blogdb = client.getDatabase("blogdb");
+25:         // create a collection in the database
+
+
+An error occurred at line: [24] in the jsp file: [/index.jsp]
+The method getDatabase(String) is undefined for the type Object
+21:         //to create client collection
+22:         var client = MongoClients.create("mongodb://localhost:27017/");
+23:         // to create or access the db
+24:         var blogdb = client.getDatabase("blogdb");
+25:         // create a collection in the database
+26:         blogdb.createCollection("dailyBlogs");
+27: 
+
+
+An error occurred at line: [26] in the jsp file: [/index.jsp]
+The method createCollection(String) is undefined for the type Object
+23:         // to create or access the db
+24:         var blogdb = client.getDatabase("blogdb");
+25:         // create a collection in the database
+26:         blogdb.createCollection("dailyBlogs");
+27: 
+28:         var collectionName = blogdb.getCollection("dailyBlogs");
+29: 
+
+
+An error occurred at line: [28] in the jsp file: [/index.jsp]
+The method getCollection(String) is undefined for the type Object
+25:         // create a collection in the database
+26:         blogdb.createCollection("dailyBlogs");
+27: 
+28:         var collectionName = blogdb.getCollection("dailyBlogs");
+29: 
+30:         var doc = new Document();
+31:         doc.append(username,blog);
+
+
+An error occurred at line: [30] in the jsp file: [/index.jsp]
+Document cannot be resolved to a type
+27: 
+28:         var collectionName = blogdb.getCollection("dailyBlogs");
+29: 
+30:         var doc = new Document();
+31:         doc.append(username,blog);
+32:         collectionName.insertOne(doc);
+33:     }
+
+
+An error occurred at line: [31] in the jsp file: [/index.jsp]
+The method append(String, String) is undefined for the type Object
+28:         var collectionName = blogdb.getCollection("dailyBlogs");
+29: 
+30:         var doc = new Document();
+31:         doc.append(username,blog);
+32:         collectionName.insertOne(doc);
+33:     }
+34: 
+
+
+An error occurred at line: [32] in the jsp file: [/index.jsp]
+The method insertOne(Object) is undefined for the type Object
+29: 
+30:         var doc = new Document();
+31:         doc.append(username,blog);
+32:         collectionName.insertOne(doc);
+33:     }
+34: 
+35: %>
+
+
+Stacktrace:] with root cause
+	org.apache.jasper.JasperException: Unable to compile class for JSP: 
+
+An error occurred at line: [14] in the generated java file: [C:\Users\zubair786\IdeaProjects\firstprogramjava\src\dsjavatraining\JSPMongoDB\work\Catalina\localhost\JSPMongoDB\org\apache\jsp\index_jsp.java]
+Only a type can be imported. com.mongodb.client.MongoClient resolves to a package
+
+An error occurred at line: [15] in the generated java file: [C:\Users\zubair786\IdeaProjects\firstprogramjava\src\dsjavatraining\JSPMongoDB\work\Catalina\localhost\JSPMongoDB\org\apache\jsp\index_jsp.java]
+Only a type can be imported. com.mongodb.client.MongoClients resolves to a package
+
+An error occurred at line: [16] in the generated java file: [C:\Users\zubair786\IdeaProjects\firstprogramjava\src\dsjavatraining\JSPMongoDB\work\Catalina\localhost\JSPMongoDB\org\apache\jsp\index_jsp.java]
+Only a type can be imported. org.bson.Document resolves to a package
+
+An error occurred at line: [22] in the jsp file: [/index.jsp]
+MongoClients cannot be resolved
+19:     } else {
+20:         out.print("Username is "+username+" blog is " + blog);
+21:         //to create client collection
+22:         var client = MongoClients.create("mongodb://localhost:27017/");
+23:         // to create or access the db
+24:         var blogdb = client.getDatabase("blogdb");
+25:         // create a collection in the database
+
+
+An error occurred at line: [24] in the jsp file: [/index.jsp]
+The method getDatabase(String) is undefined for the type Object
+21:         //to create client collection
+22:         var client = MongoClients.create("mongodb://localhost:27017/");
+23:         // to create or access the db
+24:         var blogdb = client.getDatabase("blogdb");
+25:         // create a collection in the database
+26:         blogdb.createCollection("dailyBlogs");
+27: 
+
+
+An error occurred at line: [26] in the jsp file: [/index.jsp]
+The method createCollection(String) is undefined for the type Object
+23:         // to create or access the db
+24:         var blogdb = client.getDatabase("blogdb");
+25:         // create a collection in the database
+26:         blogdb.createCollection("dailyBlogs");
+27: 
+28:         var collectionName = blogdb.getCollection("dailyBlogs");
+29: 
+
+
+An error occurred at line: [28] in the jsp file: [/index.jsp]
+The method getCollection(String) is undefined for the type Object
+25:         // create a collection in the database
+26:         blogdb.createCollection("dailyBlogs");
+27: 
+28:         var collectionName = blogdb.getCollection("dailyBlogs");
+29: 
+30:         var doc = new Document();
+31:         doc.append(username,blog);
+
+
+An error occurred at line: [30] in the jsp file: [/index.jsp]
+Document cannot be resolved to a type
+27: 
+28:         var collectionName = blogdb.getCollection("dailyBlogs");
+29: 
+30:         var doc = new Document();
+31:         doc.append(username,blog);
+32:         collectionName.insertOne(doc);
+33:     }
+
+
+An error occurred at line: [31] in the jsp file: [/index.jsp]
+The method append(String, String) is undefined for the type Object
+28:         var collectionName = blogdb.getCollection("dailyBlogs");
+29: 
+30:         var doc = new Document();
+31:         doc.append(username,blog);
+32:         collectionName.insertOne(doc);
+33:     }
+34: 
+
+
+An error occurred at line: [32] in the jsp file: [/index.jsp]
+The method insertOne(Object) is undefined for the type Object
+29: 
+30:         var doc = new Document();
+31:         doc.append(username,blog);
+32:         collectionName.insertOne(doc);
+33:     }
+34: 
+35: %>
+
+
+Stacktrace:
+		at org.apache.jasper.compiler.DefaultErrorHandler.javacError(DefaultErrorHandler.java:81)
+		at org.apache.jasper.compiler.ErrorDispatcher.javacError(ErrorDispatcher.java:214)
+		at org.apache.jasper.compiler.JDTCompiler.generateClass(JDTCompiler.java:543)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:402)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:372)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:356)
+		at org.apache.jasper.JspCompilationContext.compile(JspCompilationContext.java:603)
+		at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:396)
+		at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:377)
+		at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:325)
+		at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:195)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:483)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:663)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:344)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:384)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:904)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1741)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1190)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+		at java.base/java.lang.Thread.run(Thread.java:1570)

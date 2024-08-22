@@ -1,4 +1,4 @@
-package dsjavatraining;
+package Projects;
 import java.util.Scanner;
 public class currency_converter {
 

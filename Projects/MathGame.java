@@ -19,7 +19,7 @@ public class MathGame extends JFrame {
         setTitle("Math Game");
         setSize(300, 200);
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-        setLayout(new GridLayout(4, 3));
+        setLayout(new GridLayout(5, 4));
 
         numberLabel = new JLabel();
         add(numberLabel);

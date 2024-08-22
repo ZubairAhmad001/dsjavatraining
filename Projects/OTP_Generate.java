@@ -1,4 +1,4 @@
-package dsjavatraining;
+package Projects;
 import java.util.Random;
 public class OTP_Generate {
     public static void main(String[] args) {

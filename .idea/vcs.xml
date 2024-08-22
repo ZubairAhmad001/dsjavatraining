@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="VcsDirectoryMappings">
+    <mapping directory="" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/HelloWorldJSP" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/HotelBookingSystemMonggoDB" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/JSPMongoDB" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/MongoDB" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/TodoApp" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/ZubairPortfolio" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Zubairweb" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/jspCore" vcs="Git" />
+  </component>
+</project>
